@@ -10,7 +10,7 @@ longitude: "13.379537"    # decimal longitude of the workshop venue - this shoul
 humandate: "Oct 12 2026 and Oct 15 2026"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 2:00 pm CEST"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2026-10-12      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+enddate: 2026-10-15        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Namuun Battur", "Cornelius Fischer", "Wassim Salam"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Marten Jäger"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["data-genomics@bih-charite.de"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
