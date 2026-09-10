@@ -23,20 +23,22 @@ If you have not configured a flavor, the default setup instructions can be edite
   <p>
     You may already install the required packages ahead of the workshop in order to save time. Should you have any issues with the installation, we can then assist you on the first day.
     <br>
-    <pre><code class="language-r">
-    # Workshop setup
-    # Bioconductor version: 3.23
-    # Only works with R version 4.6.0 or higher, latest is 4.6.1
-    # See https://cran.r-project.org/index.html for more info
-    
-    # 1. Install BiocManager package installer
-    if (!requireNamespace("BiocManager", quietly = TRUE))
-      install.packages("BiocManager")
-    
-    # Dependency needed for installing packages from GitHub (i.e. "MangiolaLaboratory/cellNexus")
-    if (!requireNamespace("remotes", quietly = TRUE))
-      install.packages("remotes")
-    </code></pre>
+    <div class="code-block">
+      <pre><code class="language-r">
+        # Workshop setup
+        # Bioconductor version: 3.23
+        # Only works with R version 4.6.0 or higher, latest is 4.6.1
+        # See https://cran.r-project.org/index.html for more info
+        
+        # 1. Install BiocManager package installer
+        if (!requireNamespace("BiocManager", quietly = TRUE))
+          install.packages("BiocManager")
+        
+        # Dependency needed for installing packages from GitHub (i.e. "MangiolaLaboratory/cellNexus")
+        if (!requireNamespace("remotes", quietly = TRUE))
+          install.packages("remotes")     
+      </code></pre>
+    </div>
   </p>
 {% elsif site.flavor == "python" %}
   <p>
