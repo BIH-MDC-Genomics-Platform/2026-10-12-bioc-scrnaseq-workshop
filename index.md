@@ -282,7 +282,11 @@ address.
                 Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
             {% endif %}
             <br>
-            They should have R and RStudio installed (see <a href="#setup">Setup</a>). Installing the workshop packages ahead of time is a plus (see <a href="#installing-required-packages">Installing Required Packages</a>).
+            <br>
+            R and RStudio must be installed (see <a href="#setup">Setup</a>).
+            <br>
+            Installing the workshop packages ahead of time is a plus (see <a href="#installing-required-packages">Installing Required Packages</a>).
+            <br>
             <br>
             If you face any difficulty in the installation steps, we are happy to help you troubleshoot in person during the first session.
             </p>
