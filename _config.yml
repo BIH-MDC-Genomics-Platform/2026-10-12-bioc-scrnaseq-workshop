@@ -54,7 +54,7 @@ pilot: true
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Single-Cell RNA-seq Analysis Incubator Carpentry Workshop"
+title: "scRNA-seq Analysis Incubator Carpentry Workshop"
 
 #------------------------------------------------------------
 # Incubator workshop settings (only relevant for workshops teaching a lesson
