@@ -18,10 +18,25 @@ Use flavors if you have configured a specific programming language for your Incu
 If you have not configured a flavor, the default setup instructions can be edited in the last section of this file.
 {% endcomment %}
 <div id="spreadsheets-setup">
-  <h3>Required Workshop Software</h3>
+  <h3>Installing Required Packages</h3>
 {% if site.flavor == "r" %}
   <p>
-    The setup instructions for this Incubator R workshop can be found at <a href="{{ site.incubator_lesson_site }}"> the workshop overview site</a>.
+    You may already install the required packages ahead of the workshop in order to save time. Should you have any issues with the installation, we can then assist you on the first day.
+    <br>
+    <pre><code class="language-r">
+    # Workshop setup
+    # Bioconductor version: 3.23
+    # Only works with R version 4.6.0 or higher, latest is 4.6.1
+    # See https://cran.r-project.org/index.html for more info
+    
+    # 1. Install BiocManager package installer
+    if (!requireNamespace("BiocManager", quietly = TRUE))
+      install.packages("BiocManager")
+    
+    # Dependency needed for installing packages from GitHub (i.e. "MangiolaLaboratory/cellNexus")
+    if (!requireNamespace("remotes", quietly = TRUE))
+      install.packages("remotes")
+    </code></pre>
   </p>
 {% elsif site.flavor == "python" %}
   <p>
