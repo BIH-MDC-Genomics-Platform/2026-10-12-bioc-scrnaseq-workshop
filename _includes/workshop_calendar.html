@@ -3,6 +3,29 @@ For 2-day all-day events, the end date needs to be a day later.
 from here: https://stackoverflow.com/a/37659516/1113276
 {% endcomment %}
 
-{% assign final_day = page.enddate | date: '%s' | plus:86400 | date: '%F' | replace: "-", "" %}
+{% assign workshop_name = "" %}
+{% if site.carpentry == "swc" %}
+  {% assign workshop_name = "Software" %}
+{% elsif site.carpentry == "dc" %}
+  {% assign workshop_name = "Data" %}
+{% elsif site.carpentry == "lc" %}
+  {% assign workshop_name = "Library" %}
+{% elsif site.carpentry == "incubator" %}
+  {% assign workshop_name = "Incubator" %}
+{% else %}
+  {% assign workshop_name = "Carpentries" %}
+{% endif %}
 
-<a href="//calendar.google.com/calendar/render?action=TEMPLATE&text={% if site.carpentry == "swc" %}Software{% elsif site.carpentry == "lc" %}Library{% elsif site.carpentry == "dc" %}Data{% endif %} Carpentry Workshop&dates={{ page.startdate   | replace: "-", "" }}/{{ final_day }}&trp=false&sprop&sprop=name:&sf=true&output=xml&location={{ page.address }}&details={% if site.carpentry == "swc" %}Software{% elsif site.carpentry == "lc" %}Library{% elsif site.carpentry == "dc" %}Data{% endif %} Carpentry Workshop at {{ page.venue }}">Add to your Google Calendar.</a>
+{% assign title = workshop_name | append: " Carpentry Workshop" %}
+
+<a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{ title | uri_escape }}&dates=20261012T090000%2F20261012T140000&ctz=Europe%2FBerlin&trp=false&location={{ page.address | uri_escape }}&details={{ title | append: ' at ' | append: page.venue | uri_escape }}"
+   target="_blank">
+  Add Oct 12 to your Google Calendar
+</a>
+
+<br>
+
+<a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{ title | uri_escape }}&dates=20261015T090000%2F20261015T140000&ctz=Europe%2FBerlin&trp=false&location={{ page.address | uri_escape }}&details={{ title | append: ' at ' | append: page.venue | uri_escape }}"
+   target="_blank">
+  Add Oct 15 to your Google Calendar
+</a>
