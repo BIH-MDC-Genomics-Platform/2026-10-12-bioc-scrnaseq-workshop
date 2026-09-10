@@ -15,7 +15,7 @@ instructor: ["Namuun Battur", "Cornelius Fischer", "Wassim Salam"] # boxed, comm
 helper: ["Marten Jäger"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["data-genomics@bih-charite.de"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 # Optional variables
-collaborative_notes:  # URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
+collaborative_notes: "https://pad.carpentries.org/2026-10-12-bioc-scrnaseq-workshop" # URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 what3words:           # what3words (https://what3words.com) address of the workshop venue, without leading slashes e.g. "globe.lessening.computers"
 # DON'T CHANGE THIS
