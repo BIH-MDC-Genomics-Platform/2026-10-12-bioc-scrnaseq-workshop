@@ -281,7 +281,10 @@ address.
                 Participants must have access to a computer with a
                 Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
             {% endif %}
-            They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+            <br>
+            They should have R and RStudio installed (see <a href="#setup">Setup</a>). Installing the workshop packages ahead of time is a plus (see <a href="#installing-required-packages">Installing Required Packages</a>).
+            <br>
+            If you face any difficulty in the installation steps, we are happy to help you troubleshoot in person during the first session.
             </p>
         </dd>  
     </div>
