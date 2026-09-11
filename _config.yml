@@ -64,10 +64,10 @@ title: "scRNA-seq Analysis Incubator Carpentry Workshop"
 incubator_lesson_site: "https://carpentries-incubator.github.io/bioc-scrnaseq/aio.html"
 #
 # For an Incubator workshop, uncomment the line below and add the URL of your pre-workshop survey
-incubator_pre_survey: ""
+incubator_pre_survey: "https://forms.cloud.microsoft/e/0zg8bjEFL9"
 #
 # For an Incubator workshop, uncomment the line below and add the URL of your post-workshop survey
-incubator_post_survey: ""
+incubator_post_survey: "https://forms.cloud.microsoft/e/kFJNbC88Lh"
 #
 #------------------------------------------------------------
 
