@@ -35,7 +35,7 @@ BiocManager::install(c(
   update = FALSE
 )
 
-# Verifying the packages needed are installed in the active R library.
+# Verifying that the following needed packages are installed in the active R library.
 required_packages <- c("edgeR", "DropletUtils")
 missing_packages <- required_packages[
   !vapply(required_packages, requireNamespace, logical(1), quietly = TRUE)
@@ -48,9 +48,3 @@ if (length(missing_packages) > 0) {
     ". Check the R/Bioconductor version and .libPaths(), then rerun this script."
   )
 }
-
-# Do you want to install from sources the package which needs compilation? (Yes/no/cancel)
-# no
-
-# Update all/some/none? [a/s/n]:
-# a
