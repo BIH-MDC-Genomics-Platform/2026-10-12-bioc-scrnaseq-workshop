@@ -35,7 +35,7 @@ BiocManager::install(c(
   update = FALSE
 )
 
-# Verifying that the following needed packages are installed in the active R library.
+# Verify that the following needed packages are installed in the active R library.
 required_packages <- c("edgeR", "DropletUtils")
 missing_packages <- required_packages[
   !vapply(required_packages, requireNamespace, logical(1), quietly = TRUE)
