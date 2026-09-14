@@ -445,7 +445,9 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
         <div class="card text-center">
             <div class="card-body">
                 <h5 class="card-title">Pre-Workshop Survey</h5>
-                <p class="card-text">Please fill out this survey <strong>before attending</strong> the workshop.</p>
+                <p class="card-text">Please fill out this survey <strong>before attending</strong> the workshop.
+                <br>
+                Link opens 1 week before start.</p>
                 {% if site.carpentry == "incubator" %}
                 <a href="{{ site.incubator_pre_survey }}">Pre-workshop Survey</a>
                 {% elsif site.incubator_pre_survey %}
@@ -469,7 +471,9 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
         <div class="card text-center">
             <div class="card-body">
                 <h5 class="card-title">Post-Workshop Survey</h5>
-                <p class="card-text">Please fill out this survey <strong>after you leave</strong> the workshop.</p>
+                <p class="card-text">Please fill out this survey <strong>after you leave</strong> the workshop.
+                <br>
+                Link opens after workshop end.</p>
                 {% if site.carpentry == "incubator" %}
                 <a href="{{ site.incubator_post_survey }}">Post-workshop Survey</a>
                 {% elsif site.incubator_post_survey %}
